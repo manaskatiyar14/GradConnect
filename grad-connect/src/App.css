@@ -1,0 +1,373 @@
+/* MAIN */
+.home {
+  background: #0b0f1a;
+  color: white;
+  min-height: 100vh;
+}
+
+/* HERO BACKGROUND */
+.hero-bg {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+/* OVERLAY */
+.hero-overlay {
+  background: linear-gradient(to right, rgba(0,0,0,0.8), rgba(0,0,0,0.4));
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+/* CONTENT */
+.hero-content {
+  max-width: 600px;
+  margin-left: 60px;
+  color: white;
+}
+
+/* TEXT */
+.tagline {
+  color: #38bdf8;
+  margin-bottom: 10px;
+}
+
+.hero-content h1 {
+  font-size: 60px;
+  line-height: 1.2;
+}
+
+.hero-content span {
+  color: #22c55e;
+}
+
+.desc {
+  margin: 20px 0;
+  color: #ccc;
+}
+
+/* BUTTONS */
+.buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.btn {
+  padding: 12px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+}
+
+.primary {
+  background: linear-gradient(90deg, #22c55e, #3b82f6);
+  color: white;
+}
+
+.secondary {
+  border: 1px solid #3b82f6;
+  background: transparent;
+  color: white;
+}
+
+/* STATS */
+.stats {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  margin-top: 40px;
+  background: #111827;
+  border-radius: 10px;
+}
+
+.stats div {
+  font-size: 24px;
+}
+
+.stats span {
+  display: block;
+  font-size: 14px;
+  color: #aaa;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  background: #0b0f1a;
+  color: white;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.logo span {
+  color: #22c55e;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #ccc;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #3b82f6;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.btn-outline {
+  padding: 8px 16px;
+  border: 1px solid #3b82f6;
+  background: transparent;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-filled {
+  padding: 8px 16px;
+  background: linear-gradient(90deg, #22c55e, #3b82f6);
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-outline:hover {
+  background: #3b82f6;
+}
+
+.btn-filled:hover {
+  opacity: 0.85;
+}
+
+/* SECTION */
+.alumni-section {
+  padding: 60px;
+  background: #0b0f1a;
+  color: white;
+}
+
+.alumni-section h2 {
+  margin-bottom: 30px;
+}
+
+/* GRID */
+.alumni-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+/* CARD */
+.card {
+  background: #111827;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+/* HOVER */
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* IMAGE */
+.card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+/* TEXT */
+.card h3 {
+  margin: 10px 0;
+}
+
+.company {
+  color: #3b82f6;
+  font-weight: bold;
+}
+
+/* BUTTON */
+.card button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  border: 1px solid #3b82f6;
+  background: transparent;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background: #3b82f6;
+}
+.chat {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 300px;
+  background: #111827;
+  color: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.chat-header,
+.chat-input {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background: #1f2937;
+}
+
+.chat-body {
+  height: 200px;
+  padding: 10px;
+}
+
+.chat-input input {
+  flex: 1;
+  margin-right: 5px;
+} 
+.auth-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0b0f1a;
+}
+
+.auth-box {
+  background: #111827;
+  padding: 30px;
+  border-radius: 10px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  color: white;
+}
+
+.auth-box input {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.auth-box button {
+  padding: 10px;
+  background: #3b82f6;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+/* TEAMS PAGE */
+.teams-page {
+  background: #0b0f1a;
+  color: white;
+  min-height: 100vh;
+  padding: 40px;
+}
+
+/* SECTION */
+.section {
+  background: #111827;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.section h2 {
+  margin-bottom: 15px;
+}
+
+/* INPUT */
+.input-row {
+  display: flex;
+  gap: 10px;
+}
+
+.input-row input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.input-row button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(90deg, #22c55e, #3b82f6);
+  color: white;
+  cursor: pointer;
+}
+
+/* TEAM LIST */
+.team-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.team-card {
+  background: #1f2937;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.team-card button {
+  margin-top: 10px;
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  background: #3b82f6;
+  color: white;
+  cursor: pointer;
+}
+
+/* STUDENT LIST */
+.student-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.student-card {
+  background: #1f2937;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.student-card button {
+  margin-top: 10px;
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  background: #22c55e;
+  color: white;
+  cursor: pointer;
+}
