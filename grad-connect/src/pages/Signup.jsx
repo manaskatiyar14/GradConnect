@@ -16,7 +16,6 @@ export default function Signup() {
     e.preventDefault();
     console.log(form);
   };
-
   return (
     <div className="auth-container">
       <form className="auth-box" onSubmit={handleSubmit}>

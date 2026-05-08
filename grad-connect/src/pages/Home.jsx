@@ -1,5 +1,6 @@
 import img from "../Photos/img.png";
 import "../App.css";
+import { Link } from "react-router-dom";
 export default function Home() {
   return (
     <div
@@ -20,9 +21,11 @@ export default function Home() {
             collaborate on projects, and grow your career worldwide.
           </p>
           <div className="buttons">
-            <button className="btn primary">
-              Explore Alumni →
-            </button>
+            <Link to="/pages/alumni">
+                  <button className="btn primary">
+                Alumni
+                </button>
+            </Link>
             <button className="btn secondary">
               Intership
             </button>

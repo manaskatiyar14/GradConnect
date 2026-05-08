@@ -7,6 +7,7 @@ import Teams from "./pages/Teams";
 import Profile from "./pages/Profile";
 import Signup from "./pages/Signup";
 
+
 function App() {
   return (
     <>
@@ -17,6 +18,7 @@ function App() {
         <Route path="/pages/teams" element={<Teams />} />
         <Route path="/pages/profile" element={<Profile />} />
         <Route path="/pages/signup" element={<Signup />} />
+        <Route path="/pages/alumni" element={<Alumini />} />
       </Routes>
     </>
   )
