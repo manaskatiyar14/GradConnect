@@ -26,9 +26,12 @@ export default function Home() {
                 Alumni
                 </button>
             </Link>
-            <button className="btn secondary">
-              Intership
-            </button>
+            
+            <Link to="/pages/teams">
+                  <button className="btn primary">
+                Internships
+                </button>
+            </Link>
           </div>
           <div className="stats">
             <div className="card">
