@@ -13,14 +13,14 @@ export default function Profile() {
 
     return (
      <div className="profile-page">
-         <div className="profile-card">
-               <div className="left-profile">
+    <div className="profile-card">
+    <div className="left-profile">
                 <img src={user.photo} alt="profile" />
                     <h1>{user.name}</h1>
                     <p className="role">{user.role}</p>
-                    <p className="university">{user.university}</p>
-                    <div className="left-buttons">
-                    <button>Edit Profile</button>
+                        <p className="university">{user.university}</p>
+                        <div className="left-buttons">
+                        <button>Edit Profile</button>
                     </div>
                     <p className="email">{user.email}</p>
                 </div>

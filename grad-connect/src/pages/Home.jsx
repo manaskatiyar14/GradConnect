@@ -45,9 +45,9 @@ export default function Home() {
             <div className="card">
               <h2>80+</h2>
               <p>Countries</p>
-            </div>
-          </div>
         </div>
+      </div>
+      </div>
       </div>
     </div>
   );

@@ -29,32 +29,25 @@ export default function Alumni() {
         <option value="">Sort By Package</option>
         <option value="high">Highest to Lowest</option>
         <option value="low">Lowest to Highest</option>
-      </select>
+       </select>
 
       <div className="alumni-grid">
-        {sortedAlumni.map((person, index) => (
-          <div className="card" key={index}>
+      {sortedAlumni.map((person, index) => (
+      <div className="card" key={index}>
             <img src={person.photo} alt="profile" />
-
             <div className="card-info">
               <h3>{person.name}</h3>
-
-              <p className="company">{person.company}</p>
-
+                 <p className="company">{person.company}</p>
               <p>{person.domain}</p>
-
               <p>Batch: {person.batch}</p>
-
               <p>Package: {person.currentPackage} LPA</p>
-
               <button className="show-btn">
                 Show More
               </button>
-
-              <button onClick={() => setSelectedUser(person)}>
-                Connect
-              </button>
-            </div>
+          <button onClick={() => setSelectedUser(person)}>
+              Connect
+          </button>
+          </div>
           </div>
         ))}
       </div>
