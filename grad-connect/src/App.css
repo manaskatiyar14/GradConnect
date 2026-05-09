@@ -425,13 +425,13 @@ body{
 
 
 /* Alumni Section */
-
 .alumni-section{
     width: 100%;
     padding: 80px 100px;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
     background: linear-gradient(to bottom,#f8fbff,#eef4ff);
+    min-height: 100vh;
 }
 
 .alumni-section h2{
@@ -439,7 +439,7 @@ body{
     font-size: 65px;
     font-weight: 700;
     color: #0f172a;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
     line-height: 1.2;
     background-color: white;
     width: fit-content;
@@ -448,16 +448,37 @@ body{
     margin-left: auto;
     margin-right: auto;
     transition: 0.4s;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
 }
 
 .alumni-section h2:hover{
     transform: scale(1.05);
 }
 
+.alumni-section select{
+    display: block;
+    margin: 0 auto 50px auto;
+    padding: 14px 22px;
+    border-radius: 14px;
+    border: none;
+    outline: none;
+    background-color: white;
+    font-size: 16px;
+    font-weight: 600;
+    color: #0f172a;
+    box-shadow: 0 5px 18px rgba(0,0,0,0.08);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.alumni-section select:hover{
+    transform: scale(1.03);
+}
+
 .alumni-grid{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     gap: 30px;
     flex-wrap: wrap;
 }
@@ -469,10 +490,25 @@ body{
     background-color: white;
     border-radius: 24px;
     transition: 0.4s;
+    box-shadow: 0 10px 25px rgba(37,99,235,0.12);
+    overflow: hidden;
+    position: relative;
+}
+
+.card::before{
+    content: "";
+    position: absolute;
+    top: -50px;
+    right: -50px;
+    width: 140px;
+    height: 140px;
+    background: rgba(37,99,235,0.08);
+    border-radius: 50%;
 }
 
 .card:hover{
     transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(37,99,235,0.2);
 }
 
 .card img{
@@ -489,6 +525,8 @@ body{
 
 .card-info{
     padding-top: 18px;
+    position: relative;
+    z-index: 1;
 }
 
 .card-info h3{
@@ -517,11 +555,14 @@ body{
     margin-top: 15px;
     margin-right: 10px;
     border-radius: 12px;
+    border: none;
+    outline: none;
     background-color: #2563eb;
     color: white;
     font-size: 14px;
     font-weight: 600;
     transition: 0.3s;
+    cursor: pointer;
 }
 
 .card-info button:hover{
@@ -543,20 +584,50 @@ body{
 
 
 
+
+
+
 /* intership */
 .internship-page{
   width: 100%;
   min-height: 100vh;
   padding: 80px;
   background: linear-gradient(to right, #dbeafe, #eff6ff, #e0f2fe);
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
 }
 
 .internship-title{
   text-align: center;
   font-size: 55px;
   color: #0f172a;
-  margin-bottom: 70px;
+  margin-bottom: 40px;
   font-weight: 800;
+}
+
+.search-box{
+  width: 100%;
+  max-width: 500px;
+  display: block;
+  margin: 0 auto 60px auto;
+  padding: 18px 24px;
+  border: none;
+  outline: none;
+  border-radius: 18px;
+  font-size: 17px;
+  background: white;
+  color: #0f172a;
+  box-shadow: 0 8px 25px rgba(37,99,235,0.12);
+  transition: 0.3s;
+}
+
+.search-box:focus{
+  transform: scale(1.02);
+  box-shadow: 0 12px 30px rgba(37,99,235,0.2);
+}
+
+.search-box::placeholder{
+  color: #64748b;
 }
 
 .internship-grid{
@@ -643,6 +714,11 @@ body{
   background: #dbeafe;
   transform: scale(1.03);
 }
+
+
+
+
+
 
 
 
