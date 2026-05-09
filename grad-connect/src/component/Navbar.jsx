@@ -17,9 +17,6 @@ export default function Navbar() {
         <Link to="/pages/Signup">
           <button className="btn-outline">Sign In</button>
         </Link>
-        <Link to="/pages/Signup">
-          <button className="btn-filled">Sign Up</button>
-        </Link>
       </div>
     </nav>
   );

@@ -6,7 +6,7 @@ import Alumini from "./pages/Alumini";
 import Teams from "./pages/Teams";
 import Profile from "./pages/Profile";
 import Signup from "./pages/Signup";
-
+import Footer from "./component/Footer";
 
 function App() {
   return (
@@ -20,6 +20,7 @@ function App() {
         <Route path="/pages/signup" element={<Signup />} />
         <Route path="/pages/alumni" element={<Alumini />} />
       </Routes>
+        <Footer />
     </>
   )
 }

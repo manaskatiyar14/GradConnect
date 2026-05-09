@@ -21,7 +21,6 @@ export default function Profile() {
                     <p className="university">{user.university}</p>
                     <div className="left-buttons">
                     <button>Edit Profile</button>
-                     <button>Message</button>
                     </div>
                     <p className="email">{user.email}</p>
                 </div>
@@ -34,12 +33,23 @@ export default function Profile() {
                         JavaScript and AI technologies.
                     </p>
                     <div className="profile-links">
-                        <button>GitHub</button>
+                        <a
+                            href="https://github.com"
+                            target="_blank"
+                            >
+                            <button>GitHub</button>
+                            </a>
+                            <a
+                            href="https://linkedin.com"
+                            target="_blank"
+                            >
+                            <button>LinkedIn</button>
+                            </a>
                         <button>Portfolio</button>
                         <button>Resume</button>
                         <button>Projects</button>
                         <button>Achievements</button>
-                        <button>LinkedIn</button>
+
               </div>
              </div>
            </div>

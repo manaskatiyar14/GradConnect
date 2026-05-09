@@ -6,7 +6,7 @@ const alumni = [
     name: "Aarav Sharma",
     batch: 2020,
     cgpa: 8.9,
-    currentPackage: "18 LPA",
+    currentPackage: 18,
     company: "Google",
     domain: "Backend Development",
     skills: ["Node.js", "MongoDB", "System Design"]
@@ -17,7 +17,7 @@ const alumni = [
     name: "Priya Verma",
     batch: 2021,
     cgpa: 9.1,
-    currentPackage: "16 LPA",
+    currentPackage: 16,
     company: "Microsoft",
     domain: "Machine Learning",
     skills: ["Python", "TensorFlow", "Deep Learning"]
@@ -28,7 +28,7 @@ const alumni = [
     name: "Rohan Mehta",
     batch: 2019,
     cgpa: 8.5,
-    currentPackage: "20 LPA",
+    currentPackage: 20  ,
     company: "Amazon",
     domain: "Frontend Development",
     skills: ["React", "JavaScript", "UI Design"]
@@ -39,7 +39,7 @@ const alumni = [
     name: "Sneha Kapoor",
     batch: 2022,
     cgpa: 9.0,
-    currentPackage: "12 LPA",
+    currentPackage: 12,
     company: "Adobe",
     domain: "App Development",
     skills: ["Flutter", "Firebase", "Dart"]
@@ -50,7 +50,7 @@ const alumni = [
     name: "Kabir Singh",
     batch: 2020,
     cgpa: 8.7,
-    currentPackage: "15 LPA",
+    currentPackage: 15,
     company: "Infosys",
     domain: "Web Development",
     skills: ["HTML", "CSS", "React"]
@@ -61,7 +61,7 @@ const alumni = [
     name: "Ananya Rao",
     batch: 2021,
     cgpa: 8.8,
-    currentPackage: "17 LPA",
+    currentPackage: 17,
     company: "Meta",
     domain: "Data Science",
     skills: ["Python", "Pandas", "Machine Learning"]
@@ -72,7 +72,7 @@ const alumni = [
     name: "Aditya Jain",
     batch: 2018,
     cgpa: 8.3,
-    currentPackage: "14 LPA",
+    currentPackage: 14,
     company: "TCS",
     domain: "Cloud Computing",
     skills: ["AWS", "Docker", "Linux"]
@@ -83,7 +83,7 @@ const alumni = [
     name: "Neha Gupta",
     batch: 2022,
     cgpa: 9.4,
-    currentPackage: "21 LPA",
+    currentPackage: 21,
     company: "Netflix",
     domain: "UI/UX Design",
     skills: ["Figma", "Adobe XD", "Wireframing"]
@@ -94,7 +94,7 @@ const alumni = [
     name: "Yash Malhotra",
     batch: 2020,
     cgpa: 8.6,
-    currentPackage: "13 LPA",
+    currentPackage: 13,
     company: "Wipro",
     domain: "Cyber Security",
     skills: ["Networking", "Ethical Hacking", "Linux"]
@@ -105,7 +105,7 @@ const alumni = [
     name: "Isha Patel",
     batch: 2019,
     cgpa: 9.2,
-    currentPackage: "19 LPA",
+    currentPackage: 19,
     company: "Apple",
     domain: "iOS Development",
     skills: ["Swift", "Xcode", "UI Design"]
@@ -116,7 +116,7 @@ const alumni = [
   name: "Rahul Khanna",
   batch: 2018,
   cgpa: 8.4,
-  currentPackage: "11 LPA",
+  currentPackage: 11,
   company: "IBM",
   domain: "AI",
   skills: ["Python", "AI", "NLP"]
@@ -128,7 +128,7 @@ const alumni = [
   name: "Simran Kaur",
   batch: 2023,
   cgpa: 9.5,
-  currentPackage: "22 LPA",
+  currentPackage: 22,
   company: "Oracle",
   domain: "Backend Development",
   skills: ["Java", "Spring Boot", "SQL"]
@@ -140,7 +140,7 @@ const alumni = [
   name: "Vikram Sethi",
   batch: 2021,
   cgpa: 8.1,
-  currentPackage: "10 LPA",
+  currentPackage: 10,
   company: "Capgemini",
   domain: "Testing",
   skills: ["Selenium", "Java", "Automation"]
@@ -152,7 +152,7 @@ const alumni = [
   name: "Pooja Nair",
   batch: 2020,
   cgpa: 8.9,
-  currentPackage: "18 LPA",
+  currentPackage: 18,
   company: "Accenture",
   domain: "DevOps",
   skills: ["Docker", "Kubernetes", "AWS"]
@@ -164,7 +164,7 @@ const alumni = [
   name: "Arjun Das",
   batch: 2019,
   cgpa: 7.9,
-  currentPackage: "9 LPA",
+  currentPackage: 9,
   company: "Cognizant",
   domain: "Frontend Development",
   skills: ["React", "CSS", "Bootstrap"]
@@ -176,7 +176,7 @@ const alumni = [
   name: "Meera Joshi",
   batch: 2022,
   cgpa: 9.3,
-  currentPackage: "24 LPA",
+  currentPackage: 24,
   company: "Google",
   domain: "Machine Learning",
   skills: ["TensorFlow", "Python", "NLP"]
@@ -188,7 +188,7 @@ const alumni = [
   name: "Kunal Arora",
   batch: 2018,
   cgpa: 8.0,
-  currentPackage: "12 LPA",
+  currentPackage: 12,
   company: "Dell",
   domain: "Networking",
   skills: ["CCNA", "Linux", "Security"]
@@ -200,7 +200,7 @@ const alumni = [
   name: "Ritika Sen",
   batch: 2021,
   cgpa: 8.7,
-  currentPackage: "15 LPA",
+  currentPackage: 15,
   company: "Paytm",
   domain: "App Development",
   skills: ["Flutter", "Firebase", "REST API"]
@@ -212,7 +212,7 @@ const alumni = [
   name: "Harsh Vardhan",
   batch: 2020,
   cgpa: 8.2,
-  currentPackage: "13 LPA",
+  currentPackage: 13,
   company: "Zoho",
   domain: "Backend Development",
   skills: ["Node.js", "Express", "MySQL"]
@@ -224,7 +224,7 @@ const alumni = [
   name: "Nidhi Bansal",
   batch: 2019,
   cgpa: 9.0,
-  currentPackage: "20 LPA",
+  currentPackage: 20,
   company: "Adobe",
   domain: "UI/UX Design",
   skills: ["Figma", "Photoshop", "UI Design"]
@@ -236,7 +236,7 @@ const alumni = [
   name: "Dev Malhotra",
   batch: 2021,
   cgpa: 8.4,
-  currentPackage: "17 LPA",
+  currentPackage: 17,
   company: "Uber",
   domain: "Backend Development",
   skills: ["Node.js", "Redis", "PostgreSQL"]
@@ -248,7 +248,7 @@ const alumni = [
   name: "Aditi Sharma",
   batch: 2020,
   cgpa: 9.2,
-  currentPackage: "23 LPA",
+  currentPackage: 23,
   company: "Google",
   domain: "AI Research",
   skills: ["Python", "PyTorch", "Computer Vision"]
@@ -260,7 +260,7 @@ const alumni = [
   name: "Sarthak Jain",
   batch: 2019,
   cgpa: 8.1,
-  currentPackage: "12 LPA",
+  currentPackage: 12,
   company: "Infosys",
   domain: "Cyber Security",
   skills: ["Ethical Hacking", "Linux", "Networking"]
@@ -272,7 +272,7 @@ const alumni = [
   name: "Riya Kapoor",
   batch: 2022,
   cgpa: 9.0,
-  currentPackage: "18 LPA",
+  currentPackage: 18,
   company: "Adobe",
   domain: "UI/UX Design",
   skills: ["Figma", "Adobe XD", "Prototyping"]
@@ -284,7 +284,7 @@ const alumni = [
   name: "Manav Verma",
   batch: 2021,
   cgpa: 7.9,
-  currentPackage: "11 LPA",
+  currentPackage: 11,
   company: "TCS",
   domain: "Cloud Computing",
   skills: ["AWS", "Docker", "Kubernetes"]
@@ -296,7 +296,7 @@ const alumni = [
   name: "Kriti Nanda",
   batch: 2023,
   cgpa: 9.5,
-  currentPackage: "27 LPA",
+  currentPackage: 27,
   company: "Microsoft",
   domain: "Machine Learning",
   skills: ["TensorFlow", "Deep Learning", "Python"]
@@ -308,7 +308,7 @@ const alumni = [
   name: "Aryan Khurana",
   batch: 2020,
   cgpa: 8.6,
-  currentPackage: "15 LPA",
+  currentPackage: 15,
   company: "Paytm",
   domain: "App Development",
   skills: ["Flutter", "Firebase", "REST API"]
@@ -320,7 +320,7 @@ const alumni = [
   name: "Naina Sethi",
   batch: 2018,
   cgpa: 8.8,
-  currentPackage: "19 LPA",
+  currentPackage: 19,
   company: "Amazon",
   domain: "Data Science",
   skills: ["Pandas", "SQL", "Machine Learning"]
@@ -332,7 +332,7 @@ const alumni = [
   name: "Lakshya Arora",
   batch: 2022,
   cgpa: 8.0,
-  currentPackage: "13 LPA",
+  currentPackage: 13,
   company: "Wipro",
   domain: "Frontend Development",
   skills: ["React", "Tailwind CSS", "JavaScript"]
@@ -344,7 +344,7 @@ const alumni = [
   name: "Tanisha Mehra",
   batch: 2021,
   cgpa: 9.3,
-  currentPackage: "25 LPA",
+  currentPackage: 25,
   company: "Netflix",
   domain: "DevOps",
   skills: ["CI/CD", "Docker", "AWS"]
@@ -356,7 +356,7 @@ const alumni = [
   name: "Rajat Kapoor",
   batch: 2019,
   cgpa: 8.2,
-  currentPackage: "14 LPA",
+  currentPackage: 14,
   company: "Intel",
   domain: "Embedded Systems",
   skills: ["C++", "Arduino", "IoT"]
@@ -380,7 +380,7 @@ const alumni = [
   name: "Mohit Saini",
   batch: 2018,
   cgpa: 7.8,
-  currentPackage: "10 LPA",
+  currentPackage: 10,
   company: "HCL",
   domain: "Cloud Computing",
   skills: ["Azure", "Linux", "Docker"]
@@ -392,7 +392,7 @@ const alumni = [
   name: "Palak Arora",
   batch: 2023,
   cgpa: 9.4,
-  currentPackage: "28 LPA",
+  currentPackage: 28,
   company: "Google",
   domain: "Data Engineering",
   skills: ["BigQuery", "Python", "SQL"]
@@ -404,7 +404,7 @@ const alumni = [
   name: "Aman Yadav",
   batch: 2021,
   cgpa: 8.5,
-  currentPackage: "16 LPA",
+  currentPackage: 16,
   company: "Flipkart",
   domain: "Backend Development",
   skills: ["Java", "Spring Boot", "MySQL"]
@@ -416,7 +416,7 @@ const alumni = [
   name: "Tanya Chopra",
   batch: 2019,
   cgpa: 8.9,
-  currentPackage: "21 LPA",
+  currentPackage: 21,
   company: "Meta",
   domain: "Frontend Development",
   skills: ["React", "Next.js", "Tailwind"]
@@ -428,7 +428,7 @@ const alumni = [
   name: "Siddharth Batra",
   batch: 2022,
   cgpa: 8.1,
-  currentPackage: "12 LPA",
+  currentPackage: 12,
   company: "Accenture",
   domain: "Testing",
   skills: ["Cypress", "Automation", "JavaScript"]
@@ -440,7 +440,7 @@ const alumni = [
   name: "Komal Verma",
   batch: 2020,
   cgpa: 9.1,
-  currentPackage: "24 LPA",
+  currentPackage: 24,
   company: "Apple",
   domain: "iOS Development",
   skills: ["Swift", "UIKit", "Xcode"]
@@ -452,7 +452,7 @@ const alumni = [
   name: "Nikhil Chauhan",
   batch: 2018,
   cgpa: 7.7,
-  currentPackage: "9 LPA",
+  currentPackage: 9,
   company: "Tech Mahindra",
   domain: "Networking",
   skills: ["Routing", "Switching", "CCNA"]
@@ -464,7 +464,7 @@ const alumni = [
   name: "Ira Bhatia",
   batch: 2023,
   cgpa: 9.6,
-  currentPackage: "30 LPA",
+  currentPackage: 30,
   company: "OpenAI",
   domain: "Artificial Intelligence",
   skills: ["LLMs", "Python", "Deep Learning"]
@@ -475,7 +475,7 @@ const alumni = [
   name: "Ravi Solanki",
   batch: 2020,
   cgpa: 7.5,
-  currentPackage: "6 LPA",
+  currentPackage: 6,
   company: "LocalTech Solutions",
   domain: "Web Development",
   skills: ["HTML", "CSS", "JavaScript"]
@@ -487,7 +487,7 @@ const alumni = [
   name: "Sakshi Arora",
   batch: 2021,
   cgpa: 8.3,
-  currentPackage: "9 LPA",
+  currentPackage: 9,
   company: "Infosys",
   domain: "Frontend Development",
   skills: ["React", "Tailwind", "CSS"]
@@ -499,7 +499,7 @@ const alumni = [
   name: "Keshav Mittal",
   batch: 2019,
   cgpa: 7.8,
-  currentPackage: "5 LPA",
+  currentPackage: 5,
   company: "StartupHub",
   domain: "Backend Development",
   skills: ["Node.js", "Express", "MongoDB"]
@@ -511,7 +511,7 @@ const alumni = [
   name: "Divya Sharma",
   batch: 2022,
   cgpa: 9.0,
-  currentPackage: "18 LPA",
+  currentPackage: 18,
   company: "Adobe",
   domain: "UI/UX Design",
   skills: ["Figma", "Adobe XD", "Photoshop"]
@@ -523,7 +523,7 @@ const alumni = [
   name: "Naman Gupta",
   batch: 2020,
   cgpa: 8.1,
-  currentPackage: "8 LPA",
+  currentPackage: 8,
   company: "CodeCraft",
   domain: "Android Development",
   skills: ["Kotlin", "Firebase", "Android Studio"]
@@ -535,7 +535,7 @@ const alumni = [
   name: "Ayesha Khan",
   batch: 2021,
   cgpa: 9.2,
-  currentPackage: "24 LPA",
+  currentPackage: 24,
   company: "Microsoft",
   domain: "Cloud Computing",
   skills: ["Azure", "Docker", "Kubernetes"]
@@ -547,7 +547,7 @@ const alumni = [
   name: "Harshit Yadav",
   batch: 2018,
   cgpa: 7.4,
-  currentPackage: "4 LPA",
+  currentPackage: 4,
   company: "TechNova",
   domain: "Testing",
   skills: ["Manual Testing", "Java", "Automation"]
@@ -559,7 +559,7 @@ const alumni = [
   name: "Muskan Jain",
   batch: 2023,
   cgpa: 9.4,
-  currentPackage: "28 LPA",
+  currentPackage: 28,
   company: "Google",
   domain: "Machine Learning",
   skills: ["TensorFlow", "Python", "NLP"]
@@ -571,7 +571,7 @@ const alumni = [
   name: "Aman Sethi",
   batch: 2022,
   cgpa: 8.0,
-  currentPackage: "7 LPA",
+  currentPackage: 7,
   company: "ByteWave",
   domain: "Web Development",
   skills: ["React", "Node.js", "MongoDB"]
@@ -583,7 +583,7 @@ const alumni = [
   name: "Ritika Anand",
   batch: 2019,
   cgpa: 8.7,
-  currentPackage: "15 LPA",
+  currentPackage: 15,
   company: "Paytm",
   domain: "App Development",
   skills: ["Flutter", "Firebase", "REST API"]
@@ -595,7 +595,7 @@ const alumni = [
   name: "Pranav Kapoor",
   batch: 2020,
   cgpa: 7.9,
-  currentPackage: "6.5 LPA",
+  currentPackage: 6.5,
   company: "WebNest",
   domain: "Frontend Development",
   skills: ["CSS", "JavaScript", "Bootstrap"]
@@ -607,7 +607,7 @@ const alumni = [
   name: "Kavya Bansal",
   batch: 2021,
   cgpa: 8.8,
-  currentPackage: "20 LPA",
+  currentPackage: 20,
   company: "Amazon",
   domain: "Data Science",
   skills: ["Python", "SQL", "Pandas"]
@@ -619,7 +619,7 @@ const alumni = [
   name: "Deepak Verma",
   batch: 2018,
   cgpa: 7.2,
-  currentPackage: "3.8 LPA",
+  currentPackage: 3.8,
   company: "SoftByte",
   domain: "Support Engineer",
   skills: ["Linux", "Networking", "Troubleshooting"]
@@ -631,7 +631,7 @@ const alumni = [
   name: "Pallavi Nair",
   batch: 2023,
   cgpa: 9.1,
-  currentPackage: "22 LPA",
+  currentPackage: 22,
   company: "Netflix",
   domain: "UI/UX Design",
   skills: ["Figma", "Wireframing", "UX Research"]
@@ -643,7 +643,7 @@ const alumni = [
   name: "Shubham Rana",
   batch: 2022,
   cgpa: 8.3,
-  currentPackage: "9 LPA",
+  currentPackage: 9,
   company: "TCS",
   domain: "Backend Development",
   skills: ["Java", "Spring Boot", "MySQL"]
@@ -655,7 +655,7 @@ const alumni = [
   name: "Ishita Malhotra",
   batch: 2021,
   cgpa: 9.0,
-  currentPackage: "19 LPA",
+  currentPackage: 19,
   company: "Meta",
   domain: "Frontend Development",
   skills: ["React", "Next.js", "Tailwind"]
@@ -667,7 +667,7 @@ const alumni = [
   name: "Lokesh Kumar",
   batch: 2019,
   cgpa: 7.6,
-  currentPackage: "5.5 LPA",
+  currentPackage: 5.5,
   company: "BrightCode",
   domain: "Android Development",
   skills: ["Java", "Firebase", "Android"]
@@ -679,7 +679,7 @@ const alumni = [
   name: "Nehal Arora",
   batch: 2020,
   cgpa: 8.5,
-  currentPackage: "14 LPA",
+  currentPackage: 14,
   company: "Zoho",
   domain: "Backend Development",
   skills: ["Node.js", "Redis", "MongoDB"]
@@ -691,7 +691,7 @@ const alumni = [
   name: "Rohit Meena",
   batch: 2022,
   cgpa: 7.1,
-  currentPackage: "4.5 LPA",
+  currentPackage: 4.5,
   company: "MiniSoft",
   domain: "Web Development",
   skills: ["HTML", "CSS", "PHP"]
@@ -703,7 +703,7 @@ const alumni = [
   name: "Tanvi Kapoor",
   batch: 2023,
   cgpa: 9.6,
-  currentPackage: "32 LPA",
+  currentPackage: 32,
   company: "OpenAI",
   domain: "Artificial Intelligence",
   skills: ["LLMs", "Python", "Deep Learning"]
